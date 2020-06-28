@@ -1,0 +1,19 @@
+{
+    "name": "mammatus/http-server-contracts",
+    "description": "HTTP Server contracts",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Mammatus\\Http\\Server\\Configuration\\": "src/"
+        }
+    }
+}
