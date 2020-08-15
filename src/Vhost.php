@@ -9,9 +9,4 @@ interface Vhost
     public function name(): string;
 
     public function webroot(): Webroot;
-
-    /**
-     * @return iterable<Realm>
-     */
-    public function webSocketRealms(): iterable;
 }
