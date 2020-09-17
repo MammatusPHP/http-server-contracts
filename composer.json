@@ -5,7 +5,7 @@
     "require": {
         "php": "^7.4",
         "ext-json": "^7.4",
-        "voryx/thruway": "^0.6.0"
+        "voryx/thruway": "^0.6 || ^0.5"
     },
     "config": {
         "platform": {
