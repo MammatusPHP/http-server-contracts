@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mammatus\\Http\\Server\\Configuration\\": "src/"
+            "Mammatus\\Http\\Server\\": "src/"
         }
     }
 }
