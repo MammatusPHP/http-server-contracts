@@ -6,11 +6,11 @@ use Psr\Http\Server\MiddlewareInterface;
 
 interface Vhost
 {
-    public function port(): int;
+    public static function port(): int;
 
-    public function name(): string;
+    public static function name(): string;
 
-    public function webroot(): Webroot;
+    public static function webroot(): Webroot;
 
     /** @return iterable<MiddlewareInterface> */
     public function middleware(): iterable;
