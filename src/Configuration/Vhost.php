@@ -12,6 +12,8 @@ interface Vhost
 
     public static function webroot(): Webroot;
 
+    public static function maxConcurrentRequests(): ?int;
+
     /** @return iterable<MiddlewareInterface> */
     public function middleware(): iterable;
 }
