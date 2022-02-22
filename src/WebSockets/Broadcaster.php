@@ -17,6 +17,7 @@ final class Broadcaster
 
     public function broadcast(string $topic, array $data): void
     {
+        var_export([$topic, [$data]]); //DEBUG
         $this->session->publish($topic, [$data]);
     }
 }
