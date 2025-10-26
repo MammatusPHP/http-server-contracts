@@ -1,22 +1,41 @@
 {
-    "name": "mammatus/http-server-contracts",
-    "description": "HTTP Server contracts",
-    "license": "MIT",
-    "require": {
-        "php": "^8 || ^7.4",
-        "ext-json": "^8 || ^7.4",
-        "psr/http-server-middleware": "^1.0",
-        "voryx/thruway": "^0.6 || ^0.5"
-    },
-    "config": {
-        "platform": {
-            "php": "7.4"
-        },
-        "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "Mammatus\\Http\\Server\\": "src/"
-        }
+  "name": "mammatus/http-server-contracts",
+  "description": "HTTP Server contracts",
+  "license": "MIT",
+  "require": {
+    "php": "^8.4",
+    "ext-json": "^8.4",
+    "psr/http-server-middleware": "^1.0.2"
+  },
+  "require-dev": {
+    "wyrihaximus/makefiles": "^0.7.10",
+    "wyrihaximus/test-utilities": "^8.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mammatus\\Http\\Server\\": "src/"
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "infection/extension-installer": true,
+      "phpstan/extension-installer": true,
+      "wyrihaximus/makefiles": true,
+      "wyrihaximus/test-utilities": true
+    },
+    "platform": {
+      "php": "8.4.13"
+    },
+    "sort-packages": true
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "make on-install-or-update || true"
+    ],
+    "post-update-cmd": [
+      "make on-install-or-update || true"
+    ]
+  }
 }
