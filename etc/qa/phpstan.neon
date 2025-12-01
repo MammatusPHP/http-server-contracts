@@ -4,3 +4,8 @@ parameters:
 		- ../../etc
 		- ../../src
 		- ../../tests
+	ergebnis:
+		noExtends:
+			classesAllowedToBeExtended:
+			- Mammatus\LifeCycleEvents\Promise\AbstractPromise
+			- Mammatus\Tests\LifeCycleEvents\Promise\AbstractPromiseTest

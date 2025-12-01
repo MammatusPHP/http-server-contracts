@@ -2,3 +2,5 @@ build
 vendor
 .env
 /src/Generated/
+var/*
+!var/.gitkeep
