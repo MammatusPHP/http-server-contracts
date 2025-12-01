@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Mammatus\Http\Server\Configuration;
 
@@ -12,7 +14,7 @@ interface Vhost
 
     public static function webroot(): Webroot;
 
-    public static function maxConcurrentRequests(): ?int;
+    public static function maxConcurrentRequests(): int|null;
 
     /** @return iterable<MiddlewareInterface> */
     public function middleware(): iterable;
