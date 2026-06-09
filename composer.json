@@ -9,7 +9,7 @@
   },
   "require-dev": {
     "wyrihaximus/makefiles": "^0.7.16",
-    "wyrihaximus/test-utilities": "^8.7.0"
+    "wyrihaximus/test-utilities": "^13.1.0"
   },
   "autoload": {
     "psr-4": {
@@ -29,6 +29,13 @@
       "php": "8.4.13"
     },
     "sort-packages": true
+  },
+  "extra": {
+    "wyrihaximus": {
+      "supported-features": {
+        "unit-tests": false
+      }
+    }
   },
   "scripts": {
     "post-install-cmd": [
