@@ -6,6 +6,7 @@ namespace Mammatus\Http\Server\Configuration;
 
 use Psr\Http\Server\MiddlewareInterface;
 
+/** @api */
 interface Vhost
 {
     public static function port(): int;
