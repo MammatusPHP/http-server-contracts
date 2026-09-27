@@ -1,6 +1,6 @@
 {
   "name": "mammatus/http-server-contracts",
-  "description": "HTTP Server contracts",
+  "description": "Contracts for the HTTP server",
   "license": "MIT",
   "require": {
     "php": "^8.4",
