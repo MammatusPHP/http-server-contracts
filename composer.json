@@ -8,7 +8,7 @@
     "psr/http-server-middleware": "^1.0.2"
   },
   "require-dev": {
-    "wyrihaximus/makefiles": "^0.14.8",
+    "wyrihaximus/makefiles": "^0.15.1",
     "wyrihaximus/test-utilities": "^14.4.0"
   },
   "autoload": {
