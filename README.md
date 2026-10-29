@@ -60,7 +60,7 @@ final class FrontendVhost implements Vhost
 }
 ```
 
-Examples: [FrontendVhost](https://github.com/MammatusPHP/http-server/blob/main/etc/dev-app/FrontendVhost.php), [HealthCheckVhost](https://github.com/MammatusPHP/healthz-vhost/blob/main/src/HealthCheckVhost.php).
+Examples: [FrontendVhost](https://github.com/MammatusPHP/http-server/blob/master/etc/dev-app/FrontendVhost.php), [HealthCheckVhost](https://github.com/MammatusPHP/healthz-vhost/blob/master/src/HealthCheckVhost.php).
 
 ## Webroot
 
@@ -98,7 +98,7 @@ final readonly class Ping implements Input
 }
 ```
 
-Used with a handler such as [PingHandler](https://github.com/MammatusPHP/http-server/blob/main/etc/dev-app/PingHandler.php) and [Ping](https://github.com/MammatusPHP/http-server/blob/main/etc/dev-app/Ping.php). See generated wiring in [Frontend](https://github.com/MammatusPHP/http-server/blob/main/src/Server/Frontend.php).
+Used with a handler such as [PingHandler](https://github.com/MammatusPHP/http-server/blob/master/etc/dev-app/PingHandler.php) and [Ping](https://github.com/MammatusPHP/http-server/blob/master/etc/dev-app/Ping.php). See generated wiring in [Frontend](https://github.com/MammatusPHP/http-server/blob/master/src/Server/Frontend.php).
 
 ## Realm
 
